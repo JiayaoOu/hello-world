@@ -1,0 +1,53 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+}
+
+nav{
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.nav-link:hover {
+    opacity: 1.0;
+    background-color: gray !important
+}
+
+header {
+    background-image: url("https://static01.nyt.com/images/2018/01/14/realestate/14Brooklyn/merlin_127549397_cdaab3a5-d376-435e-9dc0-d5188c07c897-jumbo.jpg?quality=90&auto=webp");
+    text-align: center;
+    height: 600px
+}
+
+header p{
+    font-style: italic 
+}
+
+.services i{
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+.services span{
+    width: 200px;
+    display: inline-block;
+}
+
+.team  img {
+    height:100px;
+    width:200px;
+    margin-top: 100px;
+    text-align: center;
+}
